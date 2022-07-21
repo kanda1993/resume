@@ -11,4 +11,7 @@ jobs:
       - uses: docker://pandoc/core:2.9
         with:
           args: README.md -s -o output/resume.html
-          
+      - uses: actions/upload-artifact@master
+        with:
+          name: curriculum-vitae
+          path: output/blog.pdf
