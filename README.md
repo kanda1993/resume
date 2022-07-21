@@ -1,6 +1,10 @@
 # 職務経歴書
 神田　祐介
 
+備考：<br>
+本職務経歴書は、Readme.mdからGitHubAcitonsにて自動生成しています。<br />
+https://github.com/osusyami/resume
+
 ## 職務経歴
   2012/04〜現在 : 株式会社Newデイシス
 
