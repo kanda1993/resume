@@ -1,4 +1,4 @@
-name: Crete PDF
+name: Crete Doc
 
 on: push
 jobs:
@@ -10,8 +10,8 @@ jobs:
           mkdir output
       - uses: docker://pandoc/core:2.9
         with:
-          args: README.md -s -o output/resume.pdf
+          args: README.md -s -o output/resume.doc
       - uses: actions/upload-artifact@master
         with:
           name: resume
-          path: output/resume.pdf
+          path: output/resume.doc
