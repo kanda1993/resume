@@ -5,10 +5,10 @@ jobs:
   convert_via_pandoc:
     runs-on: ubuntu-18.04
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v2　＃本リポジトリのソースをruns-onで稼働させている環境にcheckoutする
       - run: |
           mkdir output
-      - uses: docker://pandoc/core:2.9
+      - uses: docker://pandoc/core:2.9 #pandoc 公式docker image
         with:
           args: README.md -s -o output/resume.docx
       - uses: actions/upload-artifact@master
