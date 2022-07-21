@@ -1,12 +1,14 @@
-name: Simple Usage
+name: Crete PDF
 
 on: push
-
 jobs:
   convert_via_pandoc:
     runs-on: ubuntu-18.04
     steps:
+      - uses: actions/checkout@v2
+      - run: |
+          mkdir output
       - uses: docker://pandoc/core:2.9
         with:
-          args: ./README.md -o ./resume.pdf
+          args: ./README.md -o output/resume.html
           
