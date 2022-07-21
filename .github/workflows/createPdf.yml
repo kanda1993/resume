@@ -14,4 +14,4 @@ jobs:
       - uses: actions/upload-artifact@master
         with:
           name: curriculum-vitae
-          path: output/blog.pdf
+          path: output/resume.html
