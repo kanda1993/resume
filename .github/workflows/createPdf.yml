@@ -10,5 +10,5 @@ jobs:
           mkdir output
       - uses: docker://pandoc/core:2.9
         with:
-          args: ./README.md -o output/resume.html
+          args: README.md -s -o output/resume.html
           
