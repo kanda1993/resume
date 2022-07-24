@@ -109,7 +109,8 @@ https://github.com/osusyami/resume
     * カンバン
 
 ## output
-[Zenn](”https://zenn.dev/osusyami”) : 2022/07/22　利用開始
+[Zenn](https://zenn.dev/osusyami)
+: 2022/07/22　利用開始
 
 ## 希望条件
 
