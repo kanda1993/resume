@@ -8,7 +8,7 @@ jobs:
       - uses: actions/checkout@v2
       - run: |
           mkdir output
-      - uses: docker://pandoc/core:2.9
+      - uses: docker://osusyami/pandoc-jp-pdf:1.0
         with:
           args: README.md -s -o output/resume.docx
       - uses: actions/upload-artifact@master
