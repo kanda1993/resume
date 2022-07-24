@@ -11,6 +11,9 @@ jobs:
       - uses: docker://osusyami/pandoc-jp-pdf:1.0
         with:
           args: README.md -s -o output/resume.docx
+      - uses: docker://osusyami/pandoc-jp-pdf:1.0
+        with:
+          args: README.md -s -o output/resume.pdf
       - uses: actions/upload-artifact@master
         with:
           name: resume
