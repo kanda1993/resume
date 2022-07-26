@@ -122,9 +122,12 @@ https://github.com/osusyami/resume
 ## output
 [Zenn](https://zenn.dev/osusyami)
 : 2022/07/22　利用開始
-<br>
+<br />
 [Twitter](https://twitter.com/dev_canda)
 : 2022/07/26  本利用開始
+<br />
+[読んだ書籍参加イベント](https://github.com/osusyami/resume/tree/main/Other)
+: 遡れるもののみ記載
 
 ## 希望条件
 
