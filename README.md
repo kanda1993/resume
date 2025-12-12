@@ -4,9 +4,11 @@
 
 備考：<br>
 本職務経歴書は、Readme.mdからGitHubAcitonsにて自動生成しています。<br />
-https://github.com/osusyami/resume
 
 ## 職務経歴
+　2023/01~ 現在 : 株式会社オープン路地<br />
+
+
   2012/04〜2022/12 : 株式会社Newデイシス<br />
   主な参加PJ
 
